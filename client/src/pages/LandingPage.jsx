@@ -31,7 +31,7 @@ function LandingPage() {
             onClick={handleNavigate}
             className="px-6 py-3 bg-amber-400 text-white rounded-lg hover:bg-amber-500 font-semibold shadow-md"
           >
-            Let's Get Started
+            Let's Catch Them All!
           </button>
         </div>
       </div>

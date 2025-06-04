@@ -3,9 +3,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    const MONGODB_URI =
-      process.env.MONGODB_URI ||
-      "mongodb+srv://errycx:2890yuQW4@cluster0.uyq2tbx.mongodb.net/pokemons";
+    const MONGODB_URI = process.env.MONGODB_URI;
 
     const conn = await mongoose.connect(MONGODB_URI, {});
 

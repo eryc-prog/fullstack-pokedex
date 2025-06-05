@@ -44,4 +44,8 @@ app.listen(PORT, () => {
   console.log(`📊 Environment: ${process.env.NODE_ENV || "development"}`);
 });
 
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
+
 module.exports = app;

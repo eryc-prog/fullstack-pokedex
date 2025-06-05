@@ -35,7 +35,7 @@ const connectDB = async () => {
 
     // Retry connection after 5 seconds
     console.log("Retrying database connection in 5 seconds...");
-    setTimeout(connectDB, 5000);
+    setTimeout(connectDB, 8000);
   }
 };
 

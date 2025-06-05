@@ -7,7 +7,7 @@ const fetchFromPokeAPI = async (pokemonName) => {
   try {
     console.log(`🔍 Fetching ${pokemonName} from PokeAPI...`);
     const response = await axios.get(
-      ` https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`
+      `https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`
     );
     const data = response.data;
 

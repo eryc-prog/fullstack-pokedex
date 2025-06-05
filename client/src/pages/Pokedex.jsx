@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Search, Plus, Edit, Trash2, Heart, Star, Zap } from "lucide-react";
 
-const API_BASE_URL = "https://fullstack-pokedex-18nv.onrender.com";
+const API_BASE_URL = "https://backend-pokedex-tuzg.onrender.com";
 
 const Pokedex = () => {
   const [pokemon, setPokemon] = useState([]);
